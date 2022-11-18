@@ -33,7 +33,7 @@ public class TestClass
     }
 
     [Test]
-    public void TC02_ClickOnBackpack_ShouldDisplayedBackpackDetail()
+    public void TC02_ClickOnBackpack_BackpackDetailShouldBeDisplayed()
     {
         Login("standard_user", "secret_sauce");
         _homePage.Backpack.Click();
